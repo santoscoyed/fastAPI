@@ -37,4 +37,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: edgarrr/user-api:latest
+          tags: edgarrr/user-api:v1.0
