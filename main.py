@@ -6,15 +6,15 @@ app = FastAPI()
 db: List[User] = [
     User( 
         id = uuid4(),
-        first_name = "Jamila",
-        last_name = "Ahmed", 
-        gender = Gender.female,
+        first_name = "Edgar",
+        last_name = "Santoscoy", 
+        gender = Gender.male,
         roles = [Role.student]
     ),
     User(
         id = uuid4(),
-        first_name = "Alex",
-        last_name = "Jones", 
+        first_name = "Juan",
+        last_name = "Martinez", 
         gender = Gender.male,
         roles = [Role.admin, Role.user]  
     )  
