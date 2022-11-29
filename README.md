@@ -9,4 +9,4 @@ Python v3.10
 ```
 
 ###### Dependencies
-The project is constituted by the main class plus a **models** module, which is the file that describes the database objects.
+The project is constituted by the main class plus a * *models* * module, which is the file that describes the database objects.
